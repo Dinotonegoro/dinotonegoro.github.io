@@ -1,0 +1,52 @@
+/*Type Face*/
+@font-face {
+    font-family: Gemstone;
+    src: url(font/Gemstone.ttf);
+}
+@font-face {
+    font-family: FuturaBook;
+    src: url(font/FuturaPTBook.otf);
+}
+@font-face {
+    font-family: FuturaBold;
+    src: url(font/FuturaPTBold.otf);
+}
+
+section{
+    margin-top: 100px;
+    background-color: #130224;
+
+}
+
+html{
+    background-color: #130224;
+}
+
+body{
+    font-family: FuturaBook;
+}
+
+#box{
+    background-image: linear-gradient(to right, #FF4949, #FFCD38);
+    box-shadow: 4px 8px 0px #eee;
+}
+
+#login{
+    font-size: 44pt;
+    font-family: Gemstone;
+    color: #eee;
+    text-shadow: 2px 4px 0px #130224;
+    -webkit-text-stroke: 0.1px #130224;
+}
+
+#typeEmailX-2{
+    box-shadow: 2px 4px 0px #130224;
+}
+#typePasswordX-2{
+    box-shadow: 2px 4px 0px #130224;
+}
+#login-2{
+    background-color: #130224;
+    color: #eee;
+    font-weight: bold;
+}
